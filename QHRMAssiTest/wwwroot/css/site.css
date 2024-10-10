@@ -1,0 +1,103 @@
+.card {
+    border-radius: 10px; /* Rounded corners for the card */
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+    border-top: 1px solid #e7e7e7;
+}
+
+.img-fluid {
+    border-top-left-radius: 10px; /* Rounded corners for the image */
+    border-top-right-radius: 10px; /* Rounded corners for the image */
+}
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.add-product-btn {
+    background: linear-gradient(90deg, #007bff, #00bfff); /* Gradient background */
+    color: white;
+    font-size: 1.25rem; /* Larger font size */
+    padding: 12px 20px; /* More padding for a better touch target */
+    border: none;
+    border-radius: 30px; /* Rounded corners */
+    transition: all 0.4s ease; /* Smooth transition */
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3); /* Shadow for depth */
+}
+
+    .add-product-btn i {
+        margin-right: 8px; /* Space between icon and text */
+    }
+
+    .add-product-btn:hover {
+        background: linear-gradient(90deg, #00bfff, #007bff); /* Reverse gradient on hover */
+        transform: translateY(-3px); /* Lift effect */
+        box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5); /* Stronger shadow on hover */
+    }
+.container {
+    max-width: 600px; /* Limit the width of the form */
+    margin: 0 auto; /* Center the form on the page */
+    padding: 20px; /* Padding around the form */
+    border: 1px solid #e0e0e0; /* Border around the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.add-product-btn {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    font-size: 1rem; /* Font size */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.add-product-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between form groups */
+}
+.small-footer {
+    padding: 10px 0; /* Reduce top and bottom padding */
+    font-size: 0.8rem; /* Smaller font size */
+}
+
+.footer a {
+    color: #6c757d; /* Change link color to a lighter shade for better visibility */
+    text-decoration: none; /* Remove underline from links */
+}
+
+    .footer a:hover {
+        text-decoration: underline; /* Underline on hover for clarity */
+    }

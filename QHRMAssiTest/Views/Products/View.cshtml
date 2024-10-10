@@ -1,0 +1,24 @@
+﻿@model QHRMAssiTest.Models.Product
+@{
+    ViewData["Title"] = "View Product";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card border-light shadow-sm">
+                <div class="row g-0">
+                   
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h2 class="card-title">@Model.Name</h2>
+                            <h5 class="card-text text-success">@String.Format("{0:C}", Model.Price)</h5>
+                            <p class="card-text"><strong>Description:</strong> @Model.Description</p>
+                            <a asp-action="Index" class="btn btn-primary btn-lg">Back to Product List</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
